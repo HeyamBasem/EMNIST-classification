@@ -6,8 +6,8 @@ import tensorflow as tf  # used to perform training sessions
 # Keras
 from tensorflow.keras.layers import Dense
 from sklearn.metrics import confusion_matrix,classification_report
-train = pd.read_csv(r"C:\Users\sewar\OneDrive\Desktop\datasets\emnist_data\emnist-balanced-train.csv")
-test = pd.read_csv(r"C:\Users\sewar\OneDrive\Desktop\datasets\emnist_data\emnist-balanced-test.csv")
+train = pd.read_csv(r"..\emnist_data\emnist-balanced-train.csv")
+test = pd.read_csv(r"..\emnist_data\emnist-balanced-test.csv")
 # A delimiter is one or more characters that separate text strings. When a program stores sequential or tabular data, it
 # delimits each item of data with a predefined character
 
